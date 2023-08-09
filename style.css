@@ -1,0 +1,252 @@
+body {
+    background: #000000;
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+}
+
+header {
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+    margin-left: 0px;
+    height: 85px;
+    align-items: center;
+}
+
+img {
+    margin-left: 110px;
+    margin-top: 8px;
+}
+
+.home {
+    margin-left: 850px;
+}
+
+.sobre {
+    margin-left: 15px;
+}
+
+.cursos {
+    margin-left: 15px;
+}
+
+.matricula{
+    height: 35px;
+    width: 100px;
+    border-radius: 1px;
+    background-color: rgb(233, 154, 6);
+    margin-left: 20px;
+    font-weight: bold; 
+}
+
+section {
+    margin-left: 45px;
+}
+
+input[type=text] {
+    height: 50px;
+    border-radius: 5px;
+    }
+
+input[name=nome] {
+    width: 680px;
+}
+
+input[name=email] {
+    width: 330px;
+    margin-left: 20px;
+}
+
+.email{
+    margin-left: 20px;
+}
+
+input[type=number] {
+    height: 50px;
+    border-radius: 5px;
+    width: 330px;
+}
+
+input[type=tel] {
+    height: 50px;
+    border-radius: 5px;
+    width: 330px;
+    margin-left: 20px;
+}
+
+.tel{
+    margin-left: 20px;
+}
+
+input[type=date] {
+    height: 50px;
+    border-radius: 5px;
+    width: 330px;
+}
+
+select[id=sexo]{
+    width: 330px;
+    margin-left: 20px;
+}
+
+.sexo{
+    margin-left: 20px;
+}
+
+input[name=colegio]{
+    width: 690px;
+    margin-left: 20px;
+}
+
+.colegio{
+    margin-left: 20px;
+}
+
+select[id=cor]{
+    width: 330px;
+}
+
+select[id=estado-c]{
+    width: 335px;
+    margin-left: 20px;
+}
+
+.estado-c{
+    margin-left: 20px;
+}
+
+select[id=unidade]{
+    width: 698px;
+    margin-left: 20px;
+}
+
+.unidade{
+    margin-left: 20px;
+}
+
+input[name=nome-resp]{
+    width: 680px;
+}
+
+select[id=curso]{
+    width: 700px;
+    margin-left: 20px;
+}
+
+.curso{
+    margin-left: 20px;
+}
+
+input[name=CEP]{
+    width: 206px;
+}
+
+input[name=cidade]{
+    width: 206px;
+    margin-left: 20px;
+}
+
+.cidade{
+    margin-left: 20px;
+}
+
+input[name=estado]{
+    width: 206px;
+    margin-left: 20px;
+}
+
+.estado{
+    margin-left: 20px;
+}
+
+input[name=CPF]{
+    width: 330px;
+    margin-left: 20px;
+}
+
+.cpf{
+    margin-left: 20px;
+}
+
+input[name=RG]{
+    width: 330px;
+    margin-left: 20px;
+}
+
+.rg{
+    margin-left: 20px;
+}
+
+input[name=rua]{
+    width: 445px;
+}
+
+input[name=bairro]{
+    width: 206px;
+    margin-left: 20px;
+}
+
+.bairro{
+    margin-left: 20px;
+}
+
+select[id=eleitor]{
+    width: 206px;
+    margin-left: 20px;
+}
+
+.eleitor{
+    margin-left: 20px;
+}
+
+select[id=rubeola]{
+    width: 206px;
+    margin-left: 20px;
+}
+
+.rubeola{
+    margin-left: 20px;
+    text-align: justify;
+}
+
+select[id=reservista]{
+    width: 206px;
+    margin-left: 20px;
+}
+
+.reservista{
+    margin-left: 20px;
+}
+
+input[name=numero]{
+    width: 330px;
+}
+
+input[name=complemento]{
+    width: 330px;
+    margin-left: 20px;
+}
+
+.complemento{
+    margin-left: 20px;
+}
+
+select {
+    height: 50px;
+    border-radius: 5px;
+}
+
+input[type=checkbox]{
+    margin-left: 20px;
+}
+
+.iniciar{
+    height: 50px;
+    width: 150px;
+    border-radius: 0px;
+    background-color: rgb(136, 89, 3);
+    font-size: 100%;
+    margin-left: 30px;
+}
