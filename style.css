@@ -250,3 +250,8 @@ input[type=checkbox]{
     font-size: 100%;
     margin-left: 30px;
 }
+
+.all{
+    display: flex;
+    justify-content: center;
+}
