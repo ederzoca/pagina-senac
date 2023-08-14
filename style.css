@@ -12,7 +12,11 @@ header {
     z-index: 30;
     margin-left: 0px;
     height: 85px;
-    align-items: center;
+}
+
+.icones{
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 img {
@@ -20,24 +24,26 @@ img {
     margin-top: 8px;
 }
 
-.home {
-    margin-left: 850px;
+.home{
+    padding-right: 20px;
+    text-decoration: none;
 }
 
-.sobre {
-    margin-left: 15px;
+.sobre{
+    padding-right: 20px;
+    text-decoration: none;
 }
 
-.cursos {
-    margin-left: 15px;
+.cursos{
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 .matricula{
     height: 35px;
     width: 100px;
-    border-radius: 1px;
+    border-radius: 5px;
     background-color: rgb(233, 154, 6);
-    margin-left: 20px;
     font-weight: bold; 
 }
 
@@ -83,7 +89,9 @@ input[type=tel] {
 input[type=date] {
     height: 50px;
     border-radius: 5px;
-    width: 330px;
+    width: 314px;
+    padding-left: 12px;
+    padding-right: 2px;
 }
 
 select[id=sexo]{
@@ -242,11 +250,27 @@ input[type=checkbox]{
     margin-left: 20px;
 }
 
+.pp{
+    text-decoration: none;
+}
+
 .iniciar{
     height: 50px;
     width: 150px;
-    border-radius: 0px;
+    border-radius: 3px;
     background-color: rgb(136, 89, 3);
+    font-size: 100%;
+    margin-left: 30px;
+    transition: background 0.8s;
+    transition: height 0.8s;
+    transition: width 0.8s;
+}
+
+.iniciar:hover{
+    height: 70px;
+    width: 160px;
+    border-radius: 3px;
+    background-color: rgb(227, 149, 3);
     font-size: 100%;
     margin-left: 30px;
 }
